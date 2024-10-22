@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="main">
+    <nav id="header">
+      <div class="leftHeader">
+        <i class="fa-solid fa-ellipsis dots"></i>
+        <i class="fa-solid fa-less-than side_arrow"></i>
+        <i class="fa-solid fa-greater-than side_arrow"></i>
+      </div>
+      <div class="middleHeader">
+        <div class="home"><i class="fa-solid fa-house home"></i></div>
+        <div class="searchContainer">
+          <input class="searchBar" type="text" placeholder="What do you want to play?">
+          <span class="searchIcon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+          <span class="searchIcon2">|</span>
+          <span class="searchIcon3"><i class="fa-solid fa-window-maximize"></i></span>
+        </div>
+      </div>
+      <div class="rightHeader">
+        <button class="preContainer">Explore Premium</button>
+        <span><i class="fa-regular fa-bell icons"></i></span>
+        <span><i class="fa-solid fa-users icons"></i></span>
+        <span><i class="fa-solid fa-circle-user icons"></i></span>
+      </div>
+    </nav>
+    <div id="mainContent">
+      <div class="scrollable-div1">
+      <div class="topHeading">
+        <div class="librayContainer">
+            <div class="librayCont">
+              <span><i class="fa-solid fa-pause icons"></i></span>
+              <h3 class="library">Your Library</h3>
+            </div>
+            <div class="plusAdd">
+            <i class="fa-solid fa-plus sglass"></i>
+            <i class="fa-solid fa-arrow-right sglass"></i>
+          </div>
+        </div>
+        <div class="list">
+          <a class="listItems" href="">Playlists</a>
+          <a class="listItems" href="">Podcasts</a>
+          <a class="listItems" href="">Artists</a>
+        </div>
+      </div>
+      <div class=" scrollcontent">
+        <div class="subSearch">
+          <span><i class="fa-solid fa-magnifying-glass sglass"></i></span>
+          <div class="textcontainer">
+            <h5 class="text">Recents</h5>
+            <i class="fa-solid fa-list lists"></i>
+          </div>
+        </div>
+        <div class="sideContentContainer">
+          <div class="sideContent">
+            <span class="playbutton"><i class="fa-solid fa-play "></i></span>
+            <div class="sideImageContainer">
+              <img class="sideImage" src="./images/liked.jpg" alt="liked">
+            </div>
+            <div class="sideDetails">
+              <h4 class="sideText">Liked Songs</h4>
+              <div class="pinCon">
+                <span><i class="fa-solid fa-thumbtack pin"></i></span>
+                <h5>Playlist &#8226; 624 songs</h5>
+              </div>
+            </div>
+          </div>
+  
+          <div class="sideContent">
+            <span class="playbutton"><i class="fa-solid fa-play "></i></span>
+            <div class="sideImageContainer">
+              <img class="sideImage" src="./images/cover1.jpg" alt="liked">
+            </div>
+            <div class="sideDetails">
+              <h4 class="sideText">11 : 11</h4>
+              <div class="pinCon">
+                <h5>Playlist &#8226; Rue</h5>
+              </div>
+            </div>
+          </div>
+  
+          <div class="sideContent">
+            <span class="playbutton"><i class="fa-solid fa-play "></i></span>
+            <div class="sideImageContainer">
+              <img class="sideImage" src="./images/ts.png" alt="liked">
+            </div>
+            <div class="sideDetails">
+              <h4 class="sideText">Enchanted</h4>
+              <div class="pinCon">
+                <h5>Playlist &#8226; Rue</h5>
+              </div>
+            </div>
+          </div>
+  
+          <div class="sideContent">
+            <span class="playbutton"><i class="fa-solid fa-play "></i></span>
+            <div class="sideImageContainer">
+              <img class="sideImage" src="./images/cover5.webp" alt="liked">
+            </div>
+            <div class="sideDetails">
+              <h4 class="sideText">Hybe Boy</h4>
+              <div class="pinCon">
+                <h5>Playlist &#8226; Rue</h5>
+              </div>
+            </div>
+          </div>
+  
+          <div class="sideContent">
+            <span class="playbutton"><i class="fa-solid fa-play "></i></span>
+            <div class="sideImageContainer">
+              <img class="sideImage" src="./images/cover3.jpg" alt="liked">
+            </div>
+            <div class="sideDetails">
+              <h4 class="sideText">Sweet Escape</h4>
+              <div class="pinCon">
+                <h5>Playlist &#8226; Rue</h5>
+              </div>
+            </div>
+          </div>
+  
+          <div class="sideContent">
+            <span class="playbutton"><i class="fa-solid fa-play "></i></span>
+            <div class="sideImageContainer">
+              <img class="sideImage" src="./images/cover4.jfif" alt="liked">
+            </div>
+            <div class="sideDetails">
+              <h4 class="sideText">Sweet But Psycho</h4>
+              <div class="pinCon">
+                <h5>Playlist &#8226; Rue</h5>
+              </div>
+            </div>
+          </div>
+  
+          <div class="sideContent">
+            <span class="playbutton"><i class="fa-solid fa-play "></i></span>
+            <div class="sideImageContainer">
+              <img class="sideProfile" src="./images/tys.jpg" alt="liked">
+            </div>
+            <div class="sideDetails">
+              <h4 class="sideText">Taylor Swift</h4>
+              <div class="pinCon">
+                <h5>Artist</h5>
+              </div>
+            </div>
+          </div>
+  
+          <div class="sideContent">
+            <span class="playbutton"><i class="fa-solid fa-play "></i></span>
+            <div class="sideImageContainer">
+              <img class="sideProfile" src="./images/bts2.jfif" alt="liked">
+            </div>
+            <div class="sideDetails">
+              <h4 class="sideText">BTS</h4>
+              <div class="pinCon">
+                <h5>Artist</h5>
+              </div>
+            </div>
+          </div>
+  
+          <div class="sideContent">
+            <span class="playbutton"><i class="fa-solid fa-play "></i></span>
+            <div class="sideImageContainer">
+              <span class="sideProfile2"><i class="fa-solid fa-plus"></i></span>
+            </div>
+            <div class="sideDetails">
+              <h4 class="atp">Add to playlist</h4>
+            </div>
+          </div>
+  
+          <div class="sideContent">
+            <span class="playbutton"><i class="fa-solid fa-play "></i></span>
+            <div class="sideImageContainer">
+              <span class="sideProfile3"><i class="fa-solid fa-plus"></i></span>
+            </div>
+            <div class="sideDetails">
+              <h4 class="atp">Add to podcast</h4>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+
+    <div class="scrollable-div2">
+      <div class="subScroll">
+        <div class="ad">
+          <img class="adImg" src="./images/2024.jpeg" alt="">
+          <div class="adText">
+            <h5>Playlist</h5>
+            <h1>BEST OF 2024</h1>
+            <h1>-ENGLISH HITS</h1>
+            <h5>Best englisg songs right here! Listen now!</h5>
+            <div class="buttonAd">
+              <h4 class="sponsored">Sponsored</h4>
+              <h4 class="playAdText">Play</h4>
+              <h4 class="followAdText">Follow</h4>
+              <i class="fa-solid fa-ellipsis dotting"></i>
+            </div>
+          </div>
+        </div>
+        <div class="lists">
+          <a class="listItems" href="">All</a>
+          <a class="listItems" href="">Music</a>
+          <a class="listItems" href="">Podcasts</a>
+        </div>
+
+        <div class="gridPlaylist">
+          <div class="recent">
+            <img class="recentPlayCover" src="./images/enchanted.jfif" alt="">
+            <h4 class="recentText">
+              Enchanted (Taylor's Version)
+            </h4>
+            <span class="recentplay"><i class="fa-solid fa-circle-play pb"></i></span>
+          </div>
+
+          <div class="recent">
+            <img class="recentPlayCover" src="./images/perfect.jfif" alt="">
+            <h4 class="recentText">
+              Perfect
+            </h4>
+            <span class="recentplay"><i class="fa-solid fa-circle-play pb"></i></span>
+          </div>
+
+          <div class="recent">
+            <img class="recentPlayCover" src="./images/rang lageya.jfif" alt="">
+            <h4 class="recentText">
+              Rang Lageya
+            </h4>
+            <span class="recentplay"><i class="fa-solid fa-circle-play pb"></i></span>
+          </div>
+
+          <div class="recent">
+            <img class="recentPlayCover" src="./images/m2.jfif" alt="">
+            <h4 class="recentText">
+              Mayaanadhi
+            </h4>
+            <span class="recentplay"><i class="fa-solid fa-circle-play pb"></i></span>
+          </div>
+
+          <div class="recent">
+            <img class="recentPlayCover" src="./images/cover1.jpg" alt="">
+            <h4 class="recentText">
+              11 : 11
+            </h4>
+            <span class="recentplay"><i class="fa-solid fa-circle-play pb"></i></span>
+          </div>
+
+          <div class="recent">
+            <img class="recentPlayCover" src="./images/cover5.webp" alt="">
+            <h4 class="recentText">
+              Hybe Boy
+            </h4>
+            <span class="recentplay"><i class="fa-solid fa-circle-play pb"></i></span>
+          </div>
+        </div>
+
+        <div class="recomend">
+          <div class="recomendHeading">
+            <h3>Made For Rue</h3>
+            <h5>Show all</h5>
+          </div>
+
+          <div class="recommentations">
+            <div class="recomendContainer">
+              <span class="recentplay1"><i class="fa-solid fa-circle-play pb"></i></span>
+              <img class="rImage" src="./images/Daily Weekly.jpeg" alt="">
+              <p class="rHead">Your weekly mixtape of fresh music. Enjoy...
+              </p>
+            </div>
+
+            <div class="recomendContainer">
+              <span class="recentplay1"><i class="fa-solid fa-circle-play pb"></i></span>
+              <img class="rImage" src="./images/DailyMix1.jpeg" alt="">
+              <p class="rHead">TOMORROW X TOGETHER, Stray Kids...
+              </p>
+            </div>
+
+            <div class="recomendContainer">
+              <span class="recentplay1"><i class="fa-solid fa-circle-play pb"></i></span>
+              <img class="rImage" src="./images/DailyMix2.jpeg" alt="">
+              <p class="rHead">Sonda, Hanji, SOYOU and more
+              </p>
+            </div>
+            
+            <div class="recomendContainer">
+              <span class="recentplay1"><i class="fa-solid fa-circle-play pb"></i></span>
+              <img class="rImage" src="./images/DailyMix3.jpeg" alt="">
+              <p class="rHead">Taylor Swift, Maroon 5, One Direction and more
+              </p>
+            </div>
+
+            <div class="recomendContainer">
+              <span class="recentplay1"><i class="fa-solid fa-circle-play pb"></i></span>
+              <img class="rImage" src="./images/DailyMix4.jpeg" alt="">
+              <p class="rHead">Lewis Capaldi, Coldplay, Harry Styles and more
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="recomend">
+          <div class="recomendHeading">
+            <h3>Recently Played</h3>
+            <h5>Show all</h5>
+          </div>
+
+          <div class="recommentations">
+            <div class="recomendContainer">
+              <span class="recentplay1"><i class="fa-solid fa-circle-play pb"></i></span>
+              <img class="rImage" src="./images/RewriteTheStars.jpeg" alt="">
+              <p class="rHead"><b style="color: white;">Rewrite The Star</b>
+              </p>
+              <h5 style="font-size: 10px;">Zac Efron, Zendaya</h5>
+            </div>
+
+            <div class="recomendContainer">
+              <span class="recentplay1"><i class="fa-solid fa-circle-play pb"></i></span>
+              <img class="rImage" src="./images/Call it what you want to.jpeg" alt="">
+              <p class="rHead"><b style="color: white;">Call It What You Want</b>
+              </p>
+              <h5 style="font-size: 10px;">Taylor Swift</h5>
+            </div>
+
+            <div class="recomendContainer">
+              <span class="recentplay1"><i class="fa-solid fa-circle-play pb"></i></span>
+              <img class="rImage" src="./images/We all lie.jpeg" alt="">
+              <p class="rHead"><b style="color: white;">We All Lie</b>
+              </p>
+              <h5 style="font-size: 10px;">Ha Jin</h5>
+            </div>
+            
+            <div class="recomendContainer">
+              <span class="recentplay1"><i class="fa-solid fa-circle-play pb"></i></span>
+              <img class="rImage" src="./images/Spring day.jpeg" alt="">
+              <p class="rHead"><b style="color: white;">Spring Day</b>
+              </p>
+              <h5 style="font-size: 10px;">BTS</h5>
+            </div>
+
+            <div class="recomendContainer">
+              <span class="recentplay1"><i class="fa-solid fa-circle-play pb"></i></span>
+              <img class="rImage" src="./images/Phoolon ka taaro ka.jpeg" alt="">
+              <p class="rHead"><b style="color: white;">Phoolon Ka Taaro Ka</b>
+              </p>
+              <h5 style="font-size: 10px;">Vedang Raina, Achint, Varun..</h5>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="recomend">
+          <div class="recomendHeading">
+            <h3>Recomentation Based On Recently Played</h3>
+            <h5>Show all</h5>
+          </div>
+
+          <div class="recommentations">
+            <div class="recomendContainer">
+              <span class="recentplay1"><i class="fa-solid fa-circle-play pb"></i></span>
+              <img class="rImage" src="./images/on repeat.jpeg" alt="">
+              <p class="rHead">On Repeat
+              </p>
+            </div>
+
+            <div class="recomendContainer">
+              <span class="recentplay1"><i class="fa-solid fa-circle-play pb"></i></span>
+              <img class="rImage" src="./images/Repeat rewind.jpeg" alt="">
+              <p class="rHead">Repeat Rewind
+              </p>
+            </div>
+
+            <div class="recomendContainer">
+              <span class="recentplay1"><i class="fa-solid fa-circle-play pb"></i></span>
+              <img class="rImage" src="./images/Ai playlist.jpeg" alt="">
+              <p class="rHead">AI Playlist
+              </p>
+            </div>
+            
+            <div class="recomendContainer">
+              <span class="recentplay1"><i class="fa-solid fa-circle-play pb"></i></span>
+              <img class="rImage" src="./images/Time capsule.jpeg" alt="">
+              <p class="rHead">Time Capsule
+              </p>
+            </div>
+
+            <div class="recomendContainer">
+              <span class="recentplay1"><i class="fa-solid fa-circle-play pb"></i></span>
+              <img class="rImage" src="./images/2023.jpeg" alt="">
+              <p class="rHead">Your Top Songs 2023
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+      </div>
+
+      <footer>
+        <div class="preview">
+          <div class="sideContents">
+            <div class="sideImageContainer">
+              <img class="sideImage" src="images/strawberries&cigarettes.jfif" alt="">
+            </div>
+            <div class="sideDetails">
+              <h4 class="sideText">Strawberries & Cigarettes</h4>
+              <div class="pinCon">
+                <h5>Troy Sivan</h5>
+              </div>
+            </div>
+            <div class="verified"><i class="fa-solid fa-circle-check tick"></i></div>
+          </div>
+        </div>
+
+      <div class="playing">
+        <div class="playIcons">
+          <i class="fa-solid fa-shuffle pc"></i>
+          <i class="fa-solid fa-backward pc"></i>
+          <i class="fa-solid fa-circle-pause pc"></i>
+          <i class="fa-solid fa-forward pc"></i>
+          <i class="fa-solid fa-repeat pc"></i>
+        </div>
+        <div class="playTime">
+          <h4>1 : 24</h4>
+          <div class="timing">
+            <div class="time1"></div>
+            <div class="time2"></div>
+          </div>
+          <h4>3 : 21</h4>
+        </div>
+      </div>
+
+      <div class="control">
+        <i class="fa-solid fa-file-video"></i>
+        <i class="fa-solid fa-layer-group"></i>
+        <i class="fa-solid fa-link"></i>
+        <i class="fa-solid fa-volume-high"></i>
+        <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+      </div>
+    </footer>
+
+    </div>
+</body>
+</html>
